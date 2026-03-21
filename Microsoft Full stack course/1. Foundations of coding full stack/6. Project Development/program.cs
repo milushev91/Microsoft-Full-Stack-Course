@@ -94,24 +94,36 @@ namespace TaskManager
          
         }
         
+        public static bool CheckTask(string task)
+        
+        {
+            if (task != "")
+            
+            {
+                return true;
+            }
+            
+            return false;
+        }
+        
         //Return valid options
         public static string ReturnValidOptions()
         
         {
             string validOptions = "";
-            if (task1 != "")
+            if (CheckTask(task1))
             
             {
                 validOptions += "1";
             } 
             
-            else if (task2 != "")
+            if (CheckTask(task2))
             
             {
                 validOptions += "2";
             }
             
-            else if (task3 != "")
+            if (CheckTask(task3))
             
             {
                 validOptions += "3";
@@ -139,7 +151,6 @@ namespace TaskManager
             return userChoice;
         }
         
-        
         public static void MarkTaskAsCompleted()
         
         {
@@ -164,6 +175,37 @@ namespace TaskManager
             
         }
 
+        public static void DisplayTaskAndStatus(string task, bool status)
+        
+        {
+            if (CheckTask(task))
+            
+            {
+                Console.WriteLine(task);
+                
+                if (status)
+                {
+                    Console.WriteLine("Completed");
+                }
+                
+                else
+                
+                {
+                    Console.WriteLine("Pending");
+                }
+                
+            }
+        }
+        
+        public static void DisplayAllTasksWithStatus()
+        
+        {
+            DisplayTaskAndStatus(task1, task1Completed);
+            DisplayTaskAndStatus(task2, task2Completed);
+            DisplayTaskAndStatus(task3, task3Completed);
+            
+        }
+
         public static void Main(string[] args)
         {
             // ----------- Program Main Loop --------
@@ -185,6 +227,7 @@ namespace TaskManager
                         break;
 
                     case "3":
+                        DisplayAllTasksWithStatus();
                         break;
 
                     case "4":
