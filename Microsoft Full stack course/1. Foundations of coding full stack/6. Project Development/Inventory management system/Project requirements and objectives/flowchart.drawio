@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36 Edg/146.0.0.0" version="29.6.4">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36" version="29.6.4">
   <diagram name="Page-1" id="hNBo5qPvc-57tdKKhdvE">
-    <mxGraphModel dx="2518" dy="918" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2531" dy="748" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -93,7 +93,7 @@
           <mxGeometry height="40" width="120" x="-270" y="460" as="geometry" />
         </mxCell>
         <mxCell id="6VTmHtsniXq0ecXHmv-7-16" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=16;" value="No" vertex="1">
-          <mxGeometry height="30" width="60" x="-110" y="530" as="geometry" />
+          <mxGeometry height="30" width="60" x="-130" y="510" as="geometry" />
         </mxCell>
         <mxCell id="6VTmHtsniXq0ecXHmv-7-21" edge="1" parent="1" source="6VTmHtsniXq0ecXHmv-7-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="6VTmHtsniXq0ecXHmv-7-11">
           <mxGeometry relative="1" as="geometry" />
@@ -213,7 +213,7 @@
         <mxCell id="lMv1emc6pF8_o7cx8O1p-43" edge="1" parent="1" source="lMv1emc6pF8_o7cx8O1p-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="lMv1emc6pF8_o7cx8O1p-38">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="lMv1emc6pF8_o7cx8O1p-18" parent="1" style="rhombus;whiteSpace=wrap;html=1;fontSize=16;" value="Select option" vertex="1">
+        <mxCell id="lMv1emc6pF8_o7cx8O1p-18" parent="1" style="rhombus;whiteSpace=wrap;html=1;fontSize=16;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="Select option" vertex="1">
           <mxGeometry height="80" width="80" x="120" y="710" as="geometry" />
         </mxCell>
         <mxCell id="lMv1emc6pF8_o7cx8O1p-23" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=16;" value="Sell" vertex="1">
@@ -227,7 +227,7 @@
             <mxPoint x="269.99999999999955" y="890.2352941176471" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="lMv1emc6pF8_o7cx8O1p-26" parent="1" style="rhombus;whiteSpace=wrap;html=1;fontSize=15;" value="Quantity greater than stock" vertex="1">
+        <mxCell id="lMv1emc6pF8_o7cx8O1p-26" parent="1" style="rhombus;whiteSpace=wrap;html=1;fontSize=15;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="Quantity greater than stock" vertex="1">
           <mxGeometry height="120" width="130" x="95" y="830" as="geometry" />
         </mxCell>
         <mxCell id="lMv1emc6pF8_o7cx8O1p-29" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=16;" value="Yes" vertex="1">
