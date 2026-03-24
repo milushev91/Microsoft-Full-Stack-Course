@@ -28,12 +28,6 @@ class InvetoryManager
         {
             DisplayMainMenu();
             string choice = Console.ReadLine();
-
-            switch (choice)
-
-            {
-                
-            }
         }
     }
 }
