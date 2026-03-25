@@ -6,29 +6,28 @@ namespace InventoryManager
 {
     public class InventoryManager
     {
+        //---------Global variables------------
         public static bool programContinue = true;
         public static List<string> products = new List<string>();
         public static List<int> quantities = new List<int>();
         public static List<double> prices = new List<double>();
 
-        // Main Methods
-        public static void DisplayActions()
-
-        {
-            Console.WriteLine("Select action(1, 2, 3 or 4):");
-            Console.WriteLine("1. Add product.");
-            Console.WriteLine("2. Update product stock level.");
-            Console.WriteLine("3. View invetory.");
-            Console.WriteLine("4. Remove product.");
-            Console.WriteLine("5. Exit system.");
-
-        }
-
-        //Add new product to inventory
+        //------------Main Methods--------
+        
+        //Add new product to inventory. Checks from invalid product name, quantity or price
+        //and prints error message to the console
         public static void AddProduct()
 
         {
             string productName = GetProductName();
+            int productIndex = GetProductIndex(productName);
+
+            if (productIndex != -1)
+
+            {
+                DisplayErrorMessage("product name. Product already inside inventory");
+                return;
+            }
             int productQuantity = GetProductQuantity();
 
             if (productQuantity == -1)
@@ -51,11 +50,12 @@ namespace InventoryManager
             quantities.Add(productQuantity);
             prices.Add(productPrice);
 
-            string action = $"Product {productName} with quantity of {productQuantity} and price of ${productPrice} was added to inventory.";
+            string action = $"Product {productName} with quantity of {productQuantity} and price of ${productPrice} was added to inventory";
             DisplayConfirmationMessage(action);
 
         }
 
+        //Update product's stock level
         public static void UpdateProductStockLevel()
 
         {
@@ -81,7 +81,7 @@ namespace InventoryManager
             Console.WriteLine("1. Increase stock.");
             Console.WriteLine("2. Decrease stock.");
             string updateOption = Console.ReadLine();
-            
+
             switch (updateOption)
 
             {
@@ -108,7 +108,55 @@ namespace InventoryManager
 
         }
 
+        public static void DisplayInventory()
+
+        {
+            for (int i = 0; i < products.Count; i++)
+
+            {
+                Console.WriteLine($"Product: {products[i]}, quantity: {quantities[i]}, price: {prices[i]}");
+            }
+        }
+
+        public static void RemoveProduct()
+
+        {
+            string productName = GetProductName();
+            int productIndex = GetProductIndex(productName);
+
+            if (productIndex == -1)
+
+            {
+                DisplayErrorMessage("product name. Product not in inventory");
+                return;
+            }
+
+            products.RemoveAt(productIndex);
+            quantities.RemoveAt(productIndex);
+            prices.RemoveAt(productIndex);
+
+            DisplayConfirmationMessage($"Product: {productName} was removed");
+        }
+
+        public static void ExitProgram()
+
+        {
+            programContinue = false;
+            Console.WriteLine("Program ends...Goodbye");
+        }
         // helper methods
+        public static void DisplayActions()
+
+        {
+            Console.WriteLine("Select action(1, 2, 3 or 4):");
+            Console.WriteLine("1. Add product.");
+            Console.WriteLine("2. Update product stock level.");
+            Console.WriteLine("3. View invetory.");
+            Console.WriteLine("4. Remove product.");
+            Console.WriteLine("5. Exit system.");
+
+        }
+
         public static void DisplayErrorMessage(string errorType)
 
         {
@@ -206,18 +254,20 @@ namespace InventoryManager
                     case "2":
                         UpdateProductStockLevel();
                         break;
-                        // case 3:
-                        //   ViewInventory();
-                        //   break;
-                        // case 4:
-                        //   RemoveProduct();
-                        //   break;
-                        // default:
-                        //   Console.WriteLine("Invalid action number. Try again!");
-                        //   break;
+                    case "3":
+                        DisplayInventory();
+                        break;
+                    case "4":
+                        RemoveProduct();
+                        break;
+                    case "5":
+                        ExitProgram();
+                        break;
+                    default:
+                        DisplayErrorMessage("action number");
+                        break;
                 }
 
-            
             }
 
 
