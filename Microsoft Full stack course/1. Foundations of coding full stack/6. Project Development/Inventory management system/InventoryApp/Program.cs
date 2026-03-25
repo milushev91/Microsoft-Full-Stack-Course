@@ -55,7 +55,7 @@ namespace InventoryManager
 
         }
 
-        //Update product's stock level
+        //Update product's stock level. Returns error message if invalid product name or quantity are given.
         public static void UpdateProductStockLevel()
 
         {
@@ -107,7 +107,8 @@ namespace InventoryManager
             }
 
         }
-
+        
+        //Display all products in inventory with their quantity and price.
         public static void DisplayInventory()
 
         {
@@ -118,6 +119,7 @@ namespace InventoryManager
             }
         }
 
+        //Remove product from inventory. Returns error message if invalid product name is given.
         public static void RemoveProduct()
 
         {
@@ -138,6 +140,7 @@ namespace InventoryManager
             DisplayConfirmationMessage($"Product: {productName} was removed");
         }
 
+        //Exit program and print goodbye message to the console.
         public static void ExitProgram()
 
         {
@@ -145,6 +148,8 @@ namespace InventoryManager
             Console.WriteLine("Program ends...Goodbye");
         }
         // helper methods
+
+        //Display available actions to the user.
         public static void DisplayActions()
 
         {
@@ -157,19 +162,21 @@ namespace InventoryManager
 
         }
 
+        //Display error message to the console. Takes error type as parameter to specify the error.
         public static void DisplayErrorMessage(string errorType)
 
         {
             Console.WriteLine($"Invalid {errorType}. Try again!");
         }
 
+        //Display confirmation message to the console. Takes action as parameter to specify the message.    
         public static void DisplayConfirmationMessage(string action)
 
         {
             Console.WriteLine($"Success... {action}!");
         }
 
-        // Prompts user for product name and returns it
+        //Prompts user for product name and returns it. Converts product name to lower case to avoid case sensitivity issues.
         public static string GetProductName()
 
         {
@@ -179,8 +186,7 @@ namespace InventoryManager
             return productName;
         }
 
-        //Prompts user for product quantity and returns it. 
-        //If quantity is 0 or less or not an integer. Returns -1.
+        //Prompts admin to enter quantity and returns it. Returns -1 if quantity is less or equal to 0.
 
         public static int GetProductQuantity()
 
@@ -198,8 +204,7 @@ namespace InventoryManager
 
         }
 
-        //Prompts user for product price and returns it. 
-        //If price is 0 or less or not an integer. Returns -1.
+        //Prompts admin to enter price and returns it. Returns -1 if price is less or equal to 0.
         public static double GetProductPrice()
 
         {
@@ -217,7 +222,7 @@ namespace InventoryManager
 
         }
 
-        //Return product index if it is inventory or - 1.
+        //Returns index of the product in the products list. Takes product name as parameter. Returns -1 if product is not found.
         public static int GetProductIndex(string productName)
 
         {
