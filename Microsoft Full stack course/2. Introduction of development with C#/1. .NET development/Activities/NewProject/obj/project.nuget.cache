@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "smEnsHSCIwI=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\User\\Documents\\GitHub\\Microsoft-Full-Stack-Course\\Microsoft Full stack course\\2. Introduction of development with C#\\1. Foundations of .NET development\\Activities\\NewProject\\NewProject.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\User\\.nuget\\packages\\pastel\\7.0.1\\pastel.7.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}
