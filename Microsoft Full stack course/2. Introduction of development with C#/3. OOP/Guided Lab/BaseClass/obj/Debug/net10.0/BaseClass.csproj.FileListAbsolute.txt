@@ -1,0 +1,15 @@
+C:\Users\User\Documents\GitHub\Microsoft-Full-Stack-Course\Microsoft Full stack course\2. Introduction of development with C#\3. OOP\Guided Lab\BaseClass\bin\Debug\net10.0\BaseClass.exe
+C:\Users\User\Documents\GitHub\Microsoft-Full-Stack-Course\Microsoft Full stack course\2. Introduction of development with C#\3. OOP\Guided Lab\BaseClass\bin\Debug\net10.0\BaseClass.deps.json
+C:\Users\User\Documents\GitHub\Microsoft-Full-Stack-Course\Microsoft Full stack course\2. Introduction of development with C#\3. OOP\Guided Lab\BaseClass\bin\Debug\net10.0\BaseClass.runtimeconfig.json
+C:\Users\User\Documents\GitHub\Microsoft-Full-Stack-Course\Microsoft Full stack course\2. Introduction of development with C#\3. OOP\Guided Lab\BaseClass\bin\Debug\net10.0\BaseClass.dll
+C:\Users\User\Documents\GitHub\Microsoft-Full-Stack-Course\Microsoft Full stack course\2. Introduction of development with C#\3. OOP\Guided Lab\BaseClass\bin\Debug\net10.0\BaseClass.pdb
+C:\Users\User\Documents\GitHub\Microsoft-Full-Stack-Course\Microsoft Full stack course\2. Introduction of development with C#\3. OOP\Guided Lab\BaseClass\obj\Debug\net10.0\BaseClass.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Documents\GitHub\Microsoft-Full-Stack-Course\Microsoft Full stack course\2. Introduction of development with C#\3. OOP\Guided Lab\BaseClass\obj\Debug\net10.0\BaseClass.AssemblyInfoInputs.cache
+C:\Users\User\Documents\GitHub\Microsoft-Full-Stack-Course\Microsoft Full stack course\2. Introduction of development with C#\3. OOP\Guided Lab\BaseClass\obj\Debug\net10.0\BaseClass.AssemblyInfo.cs
+C:\Users\User\Documents\GitHub\Microsoft-Full-Stack-Course\Microsoft Full stack course\2. Introduction of development with C#\3. OOP\Guided Lab\BaseClass\obj\Debug\net10.0\BaseClass.csproj.CoreCompileInputs.cache
+C:\Users\User\Documents\GitHub\Microsoft-Full-Stack-Course\Microsoft Full stack course\2. Introduction of development with C#\3. OOP\Guided Lab\BaseClass\obj\Debug\net10.0\BaseClass.sourcelink.json
+C:\Users\User\Documents\GitHub\Microsoft-Full-Stack-Course\Microsoft Full stack course\2. Introduction of development with C#\3. OOP\Guided Lab\BaseClass\obj\Debug\net10.0\BaseClass.dll
+C:\Users\User\Documents\GitHub\Microsoft-Full-Stack-Course\Microsoft Full stack course\2. Introduction of development with C#\3. OOP\Guided Lab\BaseClass\obj\Debug\net10.0\refint\BaseClass.dll
+C:\Users\User\Documents\GitHub\Microsoft-Full-Stack-Course\Microsoft Full stack course\2. Introduction of development with C#\3. OOP\Guided Lab\BaseClass\obj\Debug\net10.0\BaseClass.pdb
+C:\Users\User\Documents\GitHub\Microsoft-Full-Stack-Course\Microsoft Full stack course\2. Introduction of development with C#\3. OOP\Guided Lab\BaseClass\obj\Debug\net10.0\BaseClass.genruntimeconfig.cache
+C:\Users\User\Documents\GitHub\Microsoft-Full-Stack-Course\Microsoft Full stack course\2. Introduction of development with C#\3. OOP\Guided Lab\BaseClass\obj\Debug\net10.0\ref\BaseClass.dll

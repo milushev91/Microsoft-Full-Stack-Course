@@ -1,0 +1,15 @@
+C:\Users\User\Documents\GitHub\Microsoft-Full-Stack-Course\Microsoft Full stack course\2. Introduction of development with C#\3. OOP\Activities\OOP\bin\Debug\net10.0\OOP.exe
+C:\Users\User\Documents\GitHub\Microsoft-Full-Stack-Course\Microsoft Full stack course\2. Introduction of development with C#\3. OOP\Activities\OOP\bin\Debug\net10.0\OOP.deps.json
+C:\Users\User\Documents\GitHub\Microsoft-Full-Stack-Course\Microsoft Full stack course\2. Introduction of development with C#\3. OOP\Activities\OOP\bin\Debug\net10.0\OOP.runtimeconfig.json
+C:\Users\User\Documents\GitHub\Microsoft-Full-Stack-Course\Microsoft Full stack course\2. Introduction of development with C#\3. OOP\Activities\OOP\bin\Debug\net10.0\OOP.dll
+C:\Users\User\Documents\GitHub\Microsoft-Full-Stack-Course\Microsoft Full stack course\2. Introduction of development with C#\3. OOP\Activities\OOP\bin\Debug\net10.0\OOP.pdb
+C:\Users\User\Documents\GitHub\Microsoft-Full-Stack-Course\Microsoft Full stack course\2. Introduction of development with C#\3. OOP\Activities\OOP\obj\Debug\net10.0\OOP.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Documents\GitHub\Microsoft-Full-Stack-Course\Microsoft Full stack course\2. Introduction of development with C#\3. OOP\Activities\OOP\obj\Debug\net10.0\OOP.AssemblyInfoInputs.cache
+C:\Users\User\Documents\GitHub\Microsoft-Full-Stack-Course\Microsoft Full stack course\2. Introduction of development with C#\3. OOP\Activities\OOP\obj\Debug\net10.0\OOP.AssemblyInfo.cs
+C:\Users\User\Documents\GitHub\Microsoft-Full-Stack-Course\Microsoft Full stack course\2. Introduction of development with C#\3. OOP\Activities\OOP\obj\Debug\net10.0\OOP.csproj.CoreCompileInputs.cache
+C:\Users\User\Documents\GitHub\Microsoft-Full-Stack-Course\Microsoft Full stack course\2. Introduction of development with C#\3. OOP\Activities\OOP\obj\Debug\net10.0\OOP.sourcelink.json
+C:\Users\User\Documents\GitHub\Microsoft-Full-Stack-Course\Microsoft Full stack course\2. Introduction of development with C#\3. OOP\Activities\OOP\obj\Debug\net10.0\OOP.dll
+C:\Users\User\Documents\GitHub\Microsoft-Full-Stack-Course\Microsoft Full stack course\2. Introduction of development with C#\3. OOP\Activities\OOP\obj\Debug\net10.0\refint\OOP.dll
+C:\Users\User\Documents\GitHub\Microsoft-Full-Stack-Course\Microsoft Full stack course\2. Introduction of development with C#\3. OOP\Activities\OOP\obj\Debug\net10.0\OOP.pdb
+C:\Users\User\Documents\GitHub\Microsoft-Full-Stack-Course\Microsoft Full stack course\2. Introduction of development with C#\3. OOP\Activities\OOP\obj\Debug\net10.0\OOP.genruntimeconfig.cache
+C:\Users\User\Documents\GitHub\Microsoft-Full-Stack-Course\Microsoft Full stack course\2. Introduction of development with C#\3. OOP\Activities\OOP\obj\Debug\net10.0\ref\OOP.dll
