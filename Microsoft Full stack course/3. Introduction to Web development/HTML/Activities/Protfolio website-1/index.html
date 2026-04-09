@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portoflio website</title>
+    <style>
+        #name {
+            margin-bottom: 10px;
+        }
+
+        #message {
+            padding: 20px;
+            font-size: 18px;
+            margin-top: 20px;
+            margin-left: 45px;
+        }
+
+        #submit {
+            margin-top: 20px;
+            margin-left: 45px;
+            padding: 10px 40px;
+            font-size: 18px;
+        }
+
+        input[type="radio"] {
+            margin-left: 45px;
+            font-size: 18px;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Welcome to My Personal Webpage</h1>
+    <h2>About Me</h2>
+    <p>Hello, I am Marian
+        and this is my portfolio website,
+        where I showcase my skills and projects.</p>
+    <h2>My Favorite Hobbies:</h2>
+    <ul>
+        <li>Coding(hopping to become my proffession)</li>
+        <li>Watching TV</li>
+        <li>Traveling</li>
+        <li>Video games</li>
+    </ul>
+
+    <h2>Personal goals:</h2>
+    <ol>
+        <li>Build big family</li>
+        <li>Provide for my family</li>
+        <li>Become software developer</li>
+        <li>Buy or/and create the dream home for my family</li>
+    </ol>
+
+    <form action="submit" method="POST">
+        <label for="name">Name: </label>
+        <input type="text" id="name" name="name">
+        <br>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email">
+        <br>
+        <label for="message"></label>
+        <textarea id="message" name="message" rows="10" cols="50" placeholder="Your message..."></textarea>
+        
+        <h2 id="rating">Rate our website:</h2>
+        
+        <input type="radio" name="rating" id="excellent" value="Excellent">
+        <label for="excellent">Excellent</label>
+        <br>
+        <input type="radio" name="rating" id="good" value="Good">
+        <label for="good">Good</label>
+        <br>
+        <input type="radio" name="rating" id="fair" value="Fair">
+        <label for="fair">Fair</label>
+        <br>
+        <input type="radio" name="rating" id="poor" value="Poor">
+        <label for="poor">Poor</label>
+        <br>
+        <input id="submit" type="submit" value="Submit">
+    </form>
+
+
+</body>
+
+</html>
